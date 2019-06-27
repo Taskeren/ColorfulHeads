@@ -76,12 +76,24 @@ public class SkullUtils {
 			LOG.warn("Failed to deserialize the skull code, too few parts: {}", skullcode);
 		}
 		else {
+			boolean customInfo = false;
+			
 			String skullid = parts[0];
 			String texture = parts[1];
 			String display = null;
-			if(parts.length == 3) display = parts[2];
+			if(parts.length == 3) {
+				display = parts[2].replace("&", "\u00A7");
+				// CUSTOM的提示
+				if(display.contains("##CUSTOM##")) {
+					customInfo = true;
+				}
+			}
 			ItemStack skull = SkullUtils.setSkullOwner(null, skullid, texture);
-			if(display != null) skull.setStackDisplayName(display);
+			if(customInfo) {
+				skull.setTranslatableName("cfh.custom_info");
+			} else {
+				if(display != null) skull.setStackDisplayName(display);
+			}
 			return skull;
 		}
 		return ItemStack.EMPTY;

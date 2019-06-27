@@ -1,2 +1,7 @@
+itemGroup.cfh.custom=CFH-Custom
 itemGroup.cfh.colors=CFH-Colors
 itemGroup.cfh.blocks=CFH-Blocks
+itemGroup.cfh.interior=CFH-Interior
+
+cfh.style=§
+cfh.custom_info=§eHere are skulls from custom.cfg, you just add your own skulls here!
