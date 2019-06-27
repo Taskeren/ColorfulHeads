@@ -1,9 +1,15 @@
 package cn.glycol.colorfulheads.data;
 
+import static cn.glycol.colorfulheads.data.TheConstant.DEF_ANIMALS;
 import static cn.glycol.colorfulheads.data.TheConstant.DEF_BLOCKS;
 import static cn.glycol.colorfulheads.data.TheConstant.DEF_COLORS;
 import static cn.glycol.colorfulheads.data.TheConstant.DEF_CUSTOM;
+import static cn.glycol.colorfulheads.data.TheConstant.DEF_FOODS;
 import static cn.glycol.colorfulheads.data.TheConstant.DEF_INTERIOR;
+import static cn.glycol.colorfulheads.data.TheConstant.DEF_LETTERS;
+import static cn.glycol.colorfulheads.data.TheConstant.DEF_MISC;
+import static cn.glycol.colorfulheads.data.TheConstant.DEF_MOBS;
+import static cn.glycol.colorfulheads.data.TheConstant.DEF_SEASONAL;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -42,12 +48,23 @@ public class DataManager {
 		File colors = getFile("colors");
 		File blocks = getFile("blocks");
 		File interior = getFile("interior");
+		File misc = getFile("misc");
+		File animals = getFile("animals");
+		File foods = getFile("foods");
+		File seasonal = getFile("seasonal");
+		File letters = getFile("letters");
+		File mobs = getFile("mobs");
 		
 		withDefVal(custom, DEF_CUSTOM);
 		withDefVal(colors, DEF_COLORS);
 		withDefVal(blocks, DEF_BLOCKS);
 		withDefVal(interior, DEF_INTERIOR);
-		
+		withDefVal(misc, DEF_MISC);
+		withDefVal(animals, DEF_ANIMALS);
+		withDefVal(foods, DEF_FOODS);
+		withDefVal(seasonal, DEF_SEASONAL);
+		withDefVal(letters, DEF_LETTERS);
+		withDefVal(mobs, DEF_MOBS);
 	}
 	
 	/**

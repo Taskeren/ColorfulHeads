@@ -68,6 +68,13 @@ public class SkullTabs extends CreativeTabs {
 		new SkullTabs("cfh.colors", new ItemStack(Items.DYE, 1, 15), "colors");
 		new SkullTabs("cfh.blocks", new ItemStack(Blocks.BRICK_BLOCK), "blocks");
 		new SkullTabs("cfh.interior", new ItemStack(Items.FLOWER_POT), "interior");
+		new SkullTabs("cfh.misc", new ItemStack(Items.LAVA_BUCKET), "misc");
+		new SkullTabs("cfh.animals", new ItemStack(Items.FISH, 1, 3), "animals");
+		new SkullTabs("cfh.foods", new ItemStack(Items.BREAD), "foods");
+		new SkullTabs("cfh.seasonal", new ItemStack(Blocks.BEACON), "seasonal");
+		new SkullTabs("cfh.letters", new ItemStack(Items.BANNER), "letters");
+		new SkullTabs("cfh.mobs", new ItemStack(Items.SKULL, 1, 2), "mobs");
+		
 		
 	}
 	
