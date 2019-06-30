@@ -8,8 +8,10 @@ displayName="ColorfulHeads"
 updateJSONURL="https://cfh.glycol.cn/update.json"
 displayURL="https://cfh.glycol.cn"
 logoFile="logo.png"
-credits="Yeah, heads."
+credits="Taskeren, Hypixel"
 authors="Taskeren"
 description='''
 Hey! Look at these beautiful heads!
+
+All the native skulls in Colorful Heads is from Hypixel BuildBattle. Go to try that nice game!
 '''
