@@ -1,0 +1,17 @@
+{
+    "homepage": "https://github.com/nitu2003/ColorfulHeads/releases",
+    "1.12.2": {
+        "1.0": "Create the mod and import Colors and Blocks.",
+        "2.0": "Rewrite Skull Loading System and import Interior.",
+        "2.1": "Rewrite SkullTabs, make it reloadable.",
+        "2.2": "Add Chinese translation and import other skulls."
+    },
+    "1.14.3": {
+        "3.0": "Update to Minecraft 1.14.3 and fix bugs."
+    },
+    "promos": {
+        "1.12.2-latest": "2.2",
+        "1.12.2-recommended": "2.2",
+        "1.14.3-latest": "3.0"
+    }
+}
