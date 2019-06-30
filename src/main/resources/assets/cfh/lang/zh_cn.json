@@ -1,0 +1,15 @@
+{
+	"itemGroup.cfh.custom":   "CFH-自建",
+	"itemGroup.cfh.colors":   "CFH-颜色",
+	"itemGroup.cfh.blocks":   "CFH-方块",
+	"itemGroup.cfh.interior": "CFH-内饰",
+	"itemGroup.cfh.misc":     "CFH-杂项",
+	"itemGroup.cfh.animals":  "CFH-动物",
+	"itemGroup.cfh.foods":    "CFH-食物",
+	"itemGroup.cfh.seasonal": "CFH-节日",
+	"itemGroup.cfh.letters":  "CFH-字母",
+	"itemGroup.cfh.mobs":     "CFH-怪物",
+	
+	"cfh.custom_info":        "§e这个创造物品栏用于添加自定义的头颅，详见Mcbbs发补贴或项目Wiki。"
+
+}

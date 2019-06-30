@@ -1,0 +1,15 @@
+{
+	"itemGroup.cfh.custom":   "CFH-Custom",
+	"itemGroup.cfh.colors":   "CFH-Colors",
+	"itemGroup.cfh.blocks":   "CFH-Blocks",
+	"itemGroup.cfh.interior": "CFH-Interior",
+	"itemGroup.cfh.misc":     "CFH-Miscellaneous",
+	"itemGroup.cfh.animals":  "CFH-Animals",
+	"itemGroup.cfh.foods":    "CFH-Foods",
+	"itemGroup.cfh.seasonal": "CFH-Seasonal",
+	"itemGroup.cfh.letters":  "CFH-Letters",
+	"itemGroup.cfh.mobs":     "CFH-Mobs",
+	
+	"cfh.custom_info":        "§eHere are skulls from custom.cfg, you just add your own skulls here!"
+
+}
